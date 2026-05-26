@@ -1,14 +1,23 @@
-﻿{{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+{{ define "main" }}
+  <section class="content">
+    <p class="kicker">{{ .Title }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </section>
 
   {{ if .Pages }}
-    {{ range .Pages }}
-      <div class="card">
-        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        {{ with .Description }}<p>{{ . }}</p>{{ end }}
-        {{ with .Date }}<p class="meta">{{ .Format "2 January 2006" }}</p>{{ end }}
+    <section class="section-title">
+      <h2>Pages</h2>
+      <div class="grid">
+        {{ range .Pages }}
+          <article class="card">
+            {{ with .Params.status }}<p class="status">{{ . }}</p>{{ end }}
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ with .Description }}<p>{{ . }}</p>{{ end }}
+            {{ with .Date }}<p class="meta">{{ .Format "2 January 2006" }}</p>{{ end }}
+          </article>
+        {{ end }}
       </div>
-    {{ end }}
+    </section>
   {{ end }}
 {{ end }}
