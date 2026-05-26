@@ -1,0 +1,46 @@
+baseURL: "https://publiclayerlab.org/"
+title: "Public Layer Lab"
+languageCode: "en"
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+taxonomies:
+  tag: "tags"
+  format: "formats"
+
+params:
+  description: "Research and methods for the infrastructures that shape public life."
+
+menus:
+  main:
+    - name: "Home"
+      pageRef: "/"
+      weight: 10
+    - name: "About"
+      pageRef: "/about"
+      weight: 20
+    - name: "Work"
+      pageRef: "/work"
+      weight: 30
+    - name: "Methods"
+      pageRef: "/methods"
+      weight: 40
+    - name: "Notes"
+      pageRef: "/notes"
+      weight: 50
+    - name: "Stichting"
+      pageRef: "/stichting"
+      weight: 60
+    - name: "Contact"
+      pageRef: "/contact"
+      weight: 70
+
+languages:
+  en:
+    languageName: "English"
+    contentDir: "content/en"
+    weight: 1
+  nl:
+    languageName: "Nederlands"
+    contentDir: "content/nl"
+    weight: 2

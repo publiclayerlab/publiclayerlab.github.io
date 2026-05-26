@@ -1,0 +1,70 @@
+﻿<!doctype html>
+<html lang="{{ site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      color: #1f2933;
+      background: #ffffff;
+    }
+    header {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+    }
+    nav a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #24415c;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      margin-bottom: 3rem;
+    }
+    footer {
+      border-top: 1px solid #ddd;
+      padding-top: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .meta {
+      color: #666;
+      font-size: 0.9rem;
+    }
+    .card {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <strong><a href="{{ relLangURL "/" }}" style="text-decoration:none;color:#1f2933;">{{ site.Title }}</a></strong>
+    <nav>
+      {{ range site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer>
+    Public Layer Lab — public-facing name of Stichting Instituut voor Digitale Publieke Systemen.
+  </footer>
+</body>
+</html>
