@@ -1,6 +1,5 @@
 baseURL: "https://publiclayerlab.org/"
 title: "Public Layer Lab"
-languageCode: "en"
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
 
@@ -37,10 +36,12 @@ menus:
 
 languages:
   en:
-    languageName: "English"
+    locale: "en"
+    label: "English"
     contentDir: "content/en"
     weight: 1
   nl:
-    languageName: "Nederlands"
+    locale: "nl-NL"
+    label: "Nederlands"
     contentDir: "content/nl"
     weight: 2
