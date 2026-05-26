@@ -45,3 +45,7 @@ languages:
     label: "Nederlands"
     contentDir: "content/nl"
     weight: 2
+
+caches:
+  images:
+    dir: ":cacheDir/images"
