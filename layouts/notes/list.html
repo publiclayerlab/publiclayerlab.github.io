@@ -1,0 +1,36 @@
+{{ define "main" }}
+  <section class="content notes-intro">
+    <p class="kicker">{{ .Title }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </section>
+
+  {{ $pages := .Pages.ByWeight }}
+  {{ $themes := slice
+      (dict "name" "Foundations" "description" "Notes on the basic vocabulary behind Public Layer Lab’s work: digital public infrastructure, public authority, transparency and accountability, contestability, and repair.")
+      (dict "name" "Public adequacy" "description" "Notes on legitimacy beyond formal compliance: burden, contestability, transparency, accountability, explanation, and the public conditions that make systems answerable.")
+      (dict "name" "Repair and responsibility" "description" "Notes on repair, responsibility, hand-offs, and the institutional arrangements that make public systems answerable when something goes wrong.")
+  }}
+
+  {{ range $themes }}
+    {{ $themeName := index . "name" }}
+    {{ $themeDescription := index . "description" }}
+    {{ $themePages := where $pages "Params.note_theme" $themeName }}
+    {{ if $themePages }}
+      <section class="note-theme" aria-labelledby="{{ anchorize $themeName }}">
+        <h2 id="{{ anchorize $themeName }}">{{ $themeName }}</h2>
+        <p class="note-theme-description">{{ $themeDescription }}</p>
+        <div class="grid note-grid">
+          {{ range $themePages }}
+            <article class="card note-card">
+              {{ with .Params.note_type }}<p class="note-label">{{ . }}</p>{{ end }}
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              {{ with .Description }}<p>{{ . }}</p>{{ end }}
+              <a class="card-link" href="{{ .RelPermalink }}">Read note</a>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+{{ end }}

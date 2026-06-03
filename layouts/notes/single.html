@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <article class="content note-single">
+    {{ with .Params.note_type }}<p class="kicker">{{ . }}</p>{{ else }}<p class="kicker">Notes</p>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ $showDate := ne .Params.show_date false }}
+    {{ if $showDate }}
+      <p class="note-meta">
+        <span>Published {{ .Date.Format "2 January 2006" }}</span>
+        {{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
+          <span>Updated {{ .Lastmod.Format "2 January 2006" }}</span>
+        {{ end }}
+      </p>
+    {{ end }}
+    {{ with .Description }}<p class="lede note-lede">{{ . }}</p>{{ end }}
+    {{ .Content }}
+    <p class="back-link"><a href="{{ relLangURL "/notes/" }}">← Back to Notes</a></p>
+  </article>
+{{ end }}

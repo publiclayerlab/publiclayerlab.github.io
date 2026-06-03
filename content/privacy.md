@@ -1,7 +1,7 @@
 ---
 title: "Privacy"
 description: "Privacy information for the Public Layer Lab website."
-draft: true
+draft: false
 ---
 
 This website is operated by Public Layer Lab, the public-facing name of Stichting Instituut voor Digitale Publieke Systemen.

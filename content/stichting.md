@@ -2,7 +2,7 @@
 title: "Stichting"
 date: 2026-05-30
 lastmod: 2026-06-01
-draft: true
+draft: false
 description: "Legal and institutional information about Stichting Instituut voor Digitale Publieke Systemen, the Dutch stichting behind Public Layer Lab."
 ---
 

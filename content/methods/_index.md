@@ -1,7 +1,7 @@
 ---
 title: "Methods"
 description: "Developing approaches for examining systems of public or social importance and whether they support claims of fairness, accessibility, understandability, accountability, contestability, and repair."
-draft: true
+draft: false
 ---
 
 The Methods section is for developing research-practice approaches that help examine systems through which public and civic life is organised: forms, portals, registers, standards, participation processes, transparency infrastructures, administrative workflows, organisational procedures, identity and verification arrangements, and AI-assisted tools.

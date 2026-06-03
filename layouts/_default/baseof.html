@@ -5,33 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ end }}{{ site.Title }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
     <div class="header-inner">
       <a class="site-title" href="{{ relLangURL "/" }}">{{ site.Title }}</a>
       <nav class="site-nav" aria-label="Main navigation">
+        {{ $current := . }}
         {{ range site.Menus.main }}
-          <a href="{{ .URL }}">{{ .Name }}</a>
+          {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+          {{ if and ($current.IsHome) (eq .Name "Home") }}
+            {{ $active = true }}
+          {{ end }}
+          <a href="{{ .URL }}" class="{{ if $active }}active{{ end }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
         {{ end }}
       </nav>
     </div>
   </header>
 
-  <main class="page">
+  <main id="main-content" class="page" tabindex="-1">
     {{ block "main" . }}{{ end }}
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
       <p>Public Layer Lab is the public-facing name of Stichting Instituut voor Digitale Publieke Systemen.</p>
+      <p class="footer-rights">© 2026 Public Layer Lab / Stichting Instituut voor Digitale Publieke Systemen. All rights reserved unless otherwise stated.</p>
       <p>
         <a href="{{ relLangURL "/privacy/" }}">Privacy</a>
-        ?
+        <span aria-hidden="true"> · </span>
         <a href="{{ relLangURL "/accessibility/" }}">Accessibility</a>
-        ?
+        <span aria-hidden="true"> · </span>
         <a href="{{ relLangURL "/contact/" }}">Contact</a>
+        <span aria-hidden="true"> · </span>
+        <a href="{{ relLangURL "/stichting/" }}">Stichting</a>
       </p>
     </div>
   </footer>

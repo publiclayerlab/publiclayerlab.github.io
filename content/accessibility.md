@@ -1,7 +1,7 @@
 ---
 title: "Accessibility"
 description: "Accessibility information for the Public Layer Lab website."
-draft: true
+draft: false
 ---
 
 Public Layer Lab aims to make this website readable, accessible, and usable.

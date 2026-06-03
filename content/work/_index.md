@@ -1,7 +1,7 @@
 ---
 title: "Work"
 description: "Current and emerging areas of inquiry on digital and administrative systems of public or social importance: fairness, accessibility, understandability, accountability, contestability, and repair."
-draft: true
+draft: false
 ---
 
 Public Layer Lab’s work is concerned with systems that shape public and civic life, especially digital and administrative arrangements through which people access services, participate in institutions, are recognised, receive decisions, and seek explanation, challenge, or repair.

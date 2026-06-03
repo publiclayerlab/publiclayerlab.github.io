@@ -2,7 +2,7 @@
 title: "About"
 date: 2026-05-30
 lastmod: 2026-06-01
-draft: true
+draft: false
 description: "Public Layer Lab is a developing public-interest research-practice initiative examining digital and administrative systems of public or social importance: fairness, accessibility, understandability, public accountability, contestability, and repair."
 ---
 

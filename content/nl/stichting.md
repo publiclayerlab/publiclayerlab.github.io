@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Stichting"
 description: "Nederlandse institutionele informatie."
 draft: true

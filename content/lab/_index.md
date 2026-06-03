@@ -1,7 +1,7 @@
 ---
 title: "Lab"
 description: "Exploratory artifacts, working prototypes, technical sketches, and concept materials for examining systems of public or social importance and accountability."
-draft: true
+draft: false
 ---
 
 The Lab is where Public Layer Lab prepares exploratory artifacts for examining digital, administrative, and AI-assisted arrangements of public or social importance that shape access, recognition, decisions, accountability, and repair.

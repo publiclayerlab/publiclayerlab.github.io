@@ -1,7 +1,7 @@
 ---
 title: "Public Layer Lab"
 description: "A developing public-interest research-practice initiative examining digital and administrative systems of public or social importance: fairness, accessibility, understandability, public accountability, contestability, and repair."
-draft: true
+draft: false
 ---
 
 Research and practice on systems that shape public and civic life.

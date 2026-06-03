@@ -2,8 +2,8 @@
   <article class="content">
     <p class="kicker">{{ with .Section }}{{ . }}{{ else }}Public Layer Lab{{ end }}</p>
     <h1>{{ .Title }}</h1>
-    {{ with .Params.status }}<p class="status">{{ . }}</p>{{ end }}
-    {{ with .Date }}<p class="meta">{{ .Format "2 January 2006" }}</p>{{ end }}
+    {{ if .Params.show_status }}{{ with .Params.status }}<p class="status">{{ . }}</p>{{ end }}{{ end }}
+    {{ if .Params.show_date }}{{ with .Date }}<p class="meta">{{ .Format "2 January 2006" }}</p>{{ end }}{{ end }}
     {{ .Content }}
   </article>
 {{ end }}

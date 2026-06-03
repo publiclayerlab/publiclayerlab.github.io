@@ -1,7 +1,7 @@
 ---
 title: "Notes"
 description: "Short public-facing notes on digital public systems, public authority, accountability, contestability, and repair."
-draft: true
+draft: false
 ---
 The Notes section collects short public-facing texts on the systems and arrangements through which public and civic life is increasingly organised.
 

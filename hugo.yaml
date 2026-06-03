@@ -1,50 +1,34 @@
-baseURL: "https://publiclayerlab.org/"
+baseURL: "https://publiclayerlab.eu/"
 title: "Public Layer Lab"
-defaultContentLanguage: "en"
-defaultContentLanguageInSubdir: false
 
 taxonomies:
   tag: "tags"
-  format: "formats"
 
 params:
-  description: "Research and methods for the infrastructures that shape public life."
+  description: "Public-interest research and explanation on digital public systems, accountability, and repair."
 
 menus:
   main:
     - name: "Home"
       pageRef: "/"
+      url: "/"
       weight: 10
     - name: "About"
       pageRef: "/about"
+      url: "/about/"
       weight: 20
     - name: "Work"
       pageRef: "/work"
+      url: "/work/"
       weight: 30
-    - name: "Methods"
-      pageRef: "/methods"
-      weight: 40
     - name: "Notes"
       pageRef: "/notes"
-      weight: 50
-    - name: "Stichting"
-      pageRef: "/stichting"
-      weight: 60
+      url: "/notes/"
+      weight: 40
     - name: "Contact"
       pageRef: "/contact"
-      weight: 70
-
-languages:
-  en:
-    locale: "en"
-    label: "English"
-    contentDir: "content/en"
-    weight: 1
-  nl:
-    locale: "nl-NL"
-    label: "Nederlands"
-    contentDir: "content/nl"
-    weight: 2
+      url: "/contact/"
+      weight: 50
 
 caches:
   images:
