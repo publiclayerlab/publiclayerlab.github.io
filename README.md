@@ -1,8 +1,29 @@
 # Public Layer Lab Hugo site
 
-Publication source package v1.0 for the Public Layer Lab website.
+Canonical Hugo source for `publiclayerlab.eu`.
 
-This package is intended as the clean working source for first publication. It contains the public root site pages, the first five Notes, the appearance patch, and the upper-menu publication-state fix. It does not include generated `public/` output.
+## Current working state
+
+This working tree contains the **September 2026 website revision**, including the completed public Privacy baseline adopted on 20 September 2026.
+
+Implemented in the public source:
+
+- revised Home hierarchy and framing;
+- rewritten Work page;
+- revised About page;
+- revised Methods page;
+- narrow Legitimacy by Design terminology/status patch;
+- trimmed Lab index;
+- revised Contact page;
+- simplified Notes index;
+- revised Privacy notice;
+- existing five published Notes retained unchanged;
+- Contestability route sketch retained unchanged;
+- Stichting and Accessibility retained unchanged.
+
+The public Gmail address remains in place until a domain mailbox is configured and tested for receive/send, SPF, DKIM, DMARC, and delivery. This is not a deployment blocker for the September revision.
+
+The internal Privacy Operating Record is **not stored in this public repository**. It belongs in the private PLL operating pack.
 
 ## Local review
 
@@ -20,13 +41,15 @@ For internal draft inspection only:
 hugo server --buildDrafts
 ```
 
-## Clean production build
+## Production-style build
+
+The GitHub Actions workflow uses Hugo Extended 0.161.1 and runs:
 
 ```bash
-hugo --cleanDestinationDir
+hugo build --gc --minify
 ```
 
-Hugo will generate the deployable static output into the `public/` directory unless another destination is configured.
+Do not edit or commit generated `public/` output. GitHub Pages deployment rebuilds it from source.
 
 ## Publication state
 
@@ -36,29 +59,16 @@ Public in ordinary builds:
 - `/about/`
 - `/work/`
 - `/notes/`
-- `/notes/digital-public-infrastructure/`
-- `/notes/public-authority/`
-- `/notes/why-transparency-is-not-the-same-as-accountability/`
-- `/notes/what-makes-a-system-contestable/`
-- `/notes/repair-is-part-of-public-system-design/`
+- five published foundational Notes;
 - `/methods/`
 - `/methods/legitimacy-by-design/`
 - `/lab/`
 - `/lab/contestability-route-sketch/`
 - `/stichting/`
-- `/privacy/`
+- `/privacy/` (September 2026 notice)
 - `/accessibility/`
 - `/contact/`
 
-Draft-only for now:
+Draft-only material remains under the existing unpublished root Notes and duplicated `content/en/` / `content/nl/` source trees. That historical cleanup is deliberately outside the September website revision.
 
-- unpublished root notes;
-- duplicated `content/en/` tree;
-- duplicated `content/nl/` tree.
-
-## Notes
-
-- Do not paste changes into `public/`; edit source files and regenerate output with Hugo.
-- The upper menu uses `pageRef` with explicit URL fallbacks.
-- The homepage includes one restrained inline SVG concept sketch.
-- This package does not make any new licensing, contact, Gmail, branding, or broader architecture changes.
+`PUBLICATION_PACKAGE_v1.0.md` is retained as the historical June 2026 publication record.

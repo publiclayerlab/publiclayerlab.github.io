@@ -1,20 +1,20 @@
 ---
 title: "About"
 date: 2026-05-30
-lastmod: 2026-06-01
+lastmod: 2026-09-19
 draft: false
-description: "Public Layer Lab is a developing public-interest research-practice initiative examining digital and administrative systems of public or social importance: fairness, accessibility, understandability, public accountability, contestability, and repair."
+description: "About Public Layer Lab, a small independent public-interest research lab focused on digital and administrative arrangements shaping public and civic life."
 ---
 
-Public Layer Lab is a research-practice initiative on systems that shape public and civic life.
+Public Layer Lab is a small independent public-interest research lab focused on digital and administrative arrangements that shape public and civic life.
 
-Its centre of gravity is digital and administrative systems in public institutions, social organisations, and civic infrastructures: the portals, forms, registers, identity checks, eligibility rules, participation platforms, cooperative governance tools, complaints routes, and AI-assisted processes through which people access services, are recognised, receive decisions, and seek explanation, challenge, or repair.
+Its work concerns arrangements in public institutions, civic infrastructures, and socially relevant organisations: the forms, registers, identity and eligibility systems, participation platforms, administrative processes, data flows, technical infrastructures, and other systems through which public responsibilities are carried out and people and organisations encounter institutions.
 
-More public and civic life now passes through forms, portals, registers, standards, identity checks, eligibility rules, data flows, institutional hand-offs, and automated or semi-automated processes. These arrangements are rarely only technical. They combine law, policy, design, administration, data, infrastructure, organisational routines, and public expectations.
+More public and civic life now passes through digital interfaces, standards, institutional hand-offs, data systems, and automated or semi-automated processes. These arrangements are rarely only technical. They combine law, policy, design, administration, data, infrastructure, organisational routines, and public expectations.
 
-That matters because such systems do not only deliver services. They shape what becomes visible, what counts as valid evidence or participation, how people and organisations are classified, where responsibility is located, and how errors or exclusions can be corrected.
+That matters because they can shape what becomes visible, what counts as valid evidence or participation, how people and organisations are classified, where responsibility and practical control sit, and how errors, exclusions, or institutional dependencies can be understood and addressed.
 
-The phrase “public layer” refers to this meeting point between people, institutions, rules, data flows, and digital interfaces: the layer through which public and socially important systems become visible, usable, contestable, or difficult to challenge.
+The phrase “public layer” refers to this meeting point between people, institutions, rules, organisations, data flows, and technical systems: the layer through which arrangements of public or social importance become visible, usable, understandable, contestable, or difficult to change.
 
 ## Statutory frame
 
@@ -28,38 +28,40 @@ Four values organise that frame.
 
 **Understandable** means that people should be able to grasp what is happening, what is expected of them, why a decision or classification matters, and where to find explanation.
 
-**Publicly accountable** means that responsibility, review, correction, and justification should not disappear behind interfaces, workflows, data exchanges, or automated tools.
+**Publicly accountable** means that responsibility, review, correction, and justification should not disappear behind interfaces, workflows, data exchanges, organisational arrangements, or automated tools.
 
-The current analytical vocabulary of Public Layer Lab — recognition, access, intelligibility, contestability, burden, repair, responsibility, and practical control — is one way of examining those statutory commitments in concrete systems.
+Across the research, concepts such as recognition, access, intelligibility, contestability, burden, repair, responsibility, institutional reliance, and practical control provide different ways of examining these commitments in concrete arrangements.
 
 ## How the work helps
 
-Public Layer Lab works by making design choices, institutional assumptions, burdens, and accountability gaps easier to see. The work may take the form of public explanation, source-grounded analysis, developing methods, or exploratory artifacts.
+Public Layer Lab investigates and reconstructs how consequential arrangements work across institutional, organisational, and technical boundaries. The aim is to make important choices, dependencies, responsibilities, and uncertainties easier to see.
 
-More explicitly, the work is meant to inform how systems of public or social importance are described, commissioned, designed, reviewed, and held accountable. Public Layer Lab does not build or certify those systems; it helps make the questions around them clearer so that legal, technical, policy, accessibility, security, and domain-specific review can be better directed.
+The work may take the form of source-grounded analysis, public explanation, research or methods notes, and exploratory materials developed through concrete questions and cases.
+
+Public Layer Lab does not build or certify the systems it examines, and it does not replace legal, technical, policy, accessibility, security, procurement, or other specialist assessment. Its contribution is to clarify the underlying institutional questions and identify where more specialised examination is required.
 
 ## How the work is developing
 
-The work sits between research and practice. It draws on political theory, law and policy, science and technology studies, public administration, civic technology, civil-society practice, and design-oriented analysis. This combination matters because these systems are usually legal, technical, organisational, and political at the same time.
+The research draws on political theory, law and policy, science and technology studies, public administration, civic technology, civil-society practice, and design-oriented analysis. This combination matters because the arrangements being studied are usually legal, technical, organisational, and political at the same time.
 
-AI-assisted administration is one part of this wider field. Public Layer Lab examines it where automated or semi-automated systems affect public input, recognition, eligibility, explanation, review, accountability, or repair.
+AI-assisted administration is one part of this wider field. Public Layer Lab examines it where automated or semi-automated processes affect public input, recognition, eligibility, representation, explanation, review, accountability, or practical possibilities for challenge and correction.
 
-One current methodological centre is [Legitimacy by Design](/methods/legitimacy-by-design/), a developing research-practice approach for examining whether public-facing or socially relevant systems structurally support claims of fairness, accessibility, accountability, intelligibility, recognition, participation, and contestability. It is not the full scope of Public Layer Lab, but it gives the work a concrete set of questions.
+One developing analytical approach is [Legitimacy by Design](/methods/legitimacy-by-design/), which examines whether public-facing or socially relevant systems structurally support claims such as fairness, accessibility, accountability, intelligibility, recognition, participation, and contestability. It is one part of the developing research, not the organising framework for Public Layer Lab as a whole.
 
 ## Who this may be useful for
 
-This work is useful for people who need to ask critical questions about a public-facing or socially relevant system — including those who design, commission, govern, scrutinise, fund, use, or are affected by it.
+The work may be useful to people who need to understand or ask critical questions about consequential digital or administrative arrangements — including those who design, commission, govern, scrutinise, fund, research, use, or are affected by them.
 
-It is also meant for readers who want clearer language for describing how systems shape access, recognition, decisions, explanation, accountability, and repair in public administration, civic infrastructure, and socially relevant organisations.
+It is also intended for readers looking for clearer ways to describe how institutional and technical arrangements shape authority, access, recognition, decisions, public understanding, accountability, civic agency, and possibilities for correction or change.
 
 ## Who is behind it
 
-Public Layer Lab is currently being developed by Mimis Petridis as a public-interest research-practice initiative under Stichting Instituut voor Digitale Publieke Systemen.
+Public Layer Lab is currently being developed by **Mimis Petridis** under Stichting Instituut voor Digitale Publieke Systemen.
 
-The public notes and working materials on this site are part of that development process. They offer explanations of concepts and distinctions that often matter in public and socially relevant systems: legitimacy, burden, contestability, transparency, interoperability, repair, responsibility, and practical control.
+The public notes and working materials on this site form part of that development. They offer explanations, analyses, and developing approaches to questions that recur across systems of public or social importance.
 
 ## Institutional base
 
-Public Layer Lab is the public-facing name used by Stichting Instituut voor Digitale Publieke Systemen, a Dutch stichting based in the Netherlands. The stichting provides an institutional home for public-interest research, public explanation, method development, and related work on digital and administrative systems of public or social importance. For legal and registration details, see the [Stichting page](/stichting/).
+**Stichting Instituut voor Digitale Publieke Systemen** is a Dutch stichting based in the Netherlands. It provides an institutional home for public-interest research, public explanation, and related analytical work on digital and administrative systems of public or social importance. For legal and registration details, see the [Stichting](/stichting/) page.
 
 Public Layer Lab is in an early institutional phase. The site should be read as the public home of developing work, not as a claim that all worklines are already mature, funded, staffed, or externally validated.

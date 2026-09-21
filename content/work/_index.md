@@ -1,63 +1,70 @@
 ---
 title: "Work"
-description: "Current and emerging areas of inquiry on digital and administrative systems of public or social importance: fairness, accessibility, understandability, accountability, contestability, and repair."
+description: "How Public Layer Lab investigates and reconstructs consequential digital and administrative arrangements shaping public and civic life."
 draft: false
 ---
 
-Public Layer Lab’s work is concerned with systems that shape public and civic life, especially digital and administrative arrangements through which people access services, participate in institutions, are recognised, receive decisions, and seek explanation, challenge, or repair.
+Public Layer Lab investigates digital and administrative arrangements that shape public and civic life.
 
-In practice, this may include municipal portals, permit processes, benefits forms, identity and verification arrangements, public registers, eligibility processes, participation platforms, cooperative governance tools, NGO accountability processes, transparency infrastructures, standards, data flows, administrative workflows, complaints routes, and AI-assisted tools.
+These arrangements are rarely only technical. Rules, organisational routines, data, standards, software, interfaces, suppliers, professional practices, and institutional responsibilities can all affect how a system works in practice. Together they can shape how authority is exercised, what institutions are able to do, what becomes visible or recognised, and how people and organisations can understand, participate in, question, or change consequential decisions and processes.
 
-The institutional scope is not limited to government. It includes public institutions and socially relevant organisations where digital or administrative systems affect fairness, accessibility, understandability, public accountability, participation, or repair.
+The work is not limited to government. Relevant arrangements may also be found in civic infrastructures and socially relevant organisations where digital or administrative systems materially shape public responsibilities, collective action, access, participation, accountability, or public understanding.
 
-These systems are not neutral delivery channels. They help organise how authority is exercised, how responsibility is distributed, and how people can understand, question, correct, or contest what happens to them.
+Automated and AI-assisted processes are one part of this wider field, particularly where they alter how information is interpreted, decisions are prepared, responsibility is distributed, or people can understand and challenge what happens.
 
-This section gives a first map of the areas where Public Layer Lab’s work is developing. It is a map of current directions, not a portfolio of completed projects or a service catalogue.
+## What makes an arrangement relevant
 
-{{< work-gateway >}}
+Not every public website, platform, software product, or administrative process falls within Public Layer Lab's scope.
+
+An arrangement becomes particularly relevant where its design or operation materially affects questions such as:
+
+- how authority and responsibility are organised;
+- whether an institution retains the practical capacity to understand, govern, or change systems on which it relies;
+- whether people and organised civic actors can understand what is happening, participate effectively, or challenge an outcome;
+- how classifications, records, evidence, or information shape what institutions and publics can know;
+- whether consequential arrangements can in practice be corrected, reviewed, redesigned, or replaced.
+
+Similar technologies can raise very different questions in different institutional settings. A platform, register, identity system, automated process, or commercial service is not relevant to Public Layer Lab simply because it is digital or widely used. What matters is the role it plays in a concrete public or civic arrangement.
+
+## How the work is approached
+
+Much of this work begins with reconstruction: establishing how a consequential arrangement actually operates across institutional, organisational, and technical boundaries.
+
+This can involve examining formal responsibilities alongside the processes through which they are carried out. It may require tracing dependencies on suppliers, standards, infrastructure, data, or specialist capabilities, and examining how information is produced, classified, transferred, or made visible. It also means asking what routes exist for explanation, correction, contestation, or institutional change.
+
+The purpose is not to collapse legal, technical, organisational, and political questions into a single diagnosis. It is to distinguish them carefully enough to understand how they interact.
+
+Where the available evidence does not establish something, the uncertainty should remain visible. Where a question depends on legal, technical, accessibility, security, or other specialist expertise, that boundary should also remain explicit rather than being replaced by a general claim.
+
+The result may be a clearer account of where responsibility lies, where practical control sits, what an institution or civic actor depends on, what a system makes easier or harder to see, and what would actually be required to alter the arrangement.
 
 ## What this can look like
 
-A planning application portal may look like a simple digital form. But it can also shape which documents are required, which objections become visible, how decisions are explained, and whether residents can understand what happened.
+A planning or permitting process may appear to be a sequence of forms and decisions. Looking across the wider arrangement can reveal how evidence requirements are set, which information becomes publicly visible, how different administrative units interact, where technical systems shape the process, and whether residents can reconstruct what happened and why.
 
-An AI-assisted complaint triage process may help an organisation handle messages faster. But it can also affect which complaints are prioritised, which language is summarised or lost, which cases reach human review, and how people know what was done with their input.
+A public institution may formally remain responsible for a digital service while relying heavily on an external supplier, shared standard, infrastructure, or specialist technical capability. The important question is then not simply who provides the technology, but what that reliance means for institutional knowledge, practical control, accountability, and the ability to modify or replace the arrangement.
 
-A public register may appear to be only a source of information. But the way it classifies entries, links records, exposes data, or omits context can affect trust, accountability, and the ability to challenge errors.
+A register, information system, or civic platform may appear primarily to organise information or participation. Its classifications, permissions, records, summaries, and interfaces can nevertheless influence what becomes visible, whose contribution is recognised, what evidence can be assembled, and how effectively public or civic actors can understand and challenge the resulting picture.
 
-A civic or social-sector platform may support participation, membership, volunteering, grant-making, service coordination, or cooperative governance. But its categories, permissions, records, summaries, and review routes can also shape who is recognised, whose contribution counts, and how responsibility is explained.
+These examples are illustrative. The relevant unit of analysis is the arrangement and the relationships within it, not a predetermined category of technology.
 
-## Current and emerging directions
+## What the work may produce
 
-Public Layer Lab’s work is developing around several connected directions:
+Depending on the question and the available evidence, Public Layer Lab's work may result in:
 
-- digital and administrative systems that shape public and civic life;
-- public-service infrastructures and public-facing digital procedures;
-- digital and administrative systems in socially relevant organisations, including civic platforms, NGOs, cooperatives, social enterprises, educational or care settings, charitable foundations, and participation infrastructures;
-- identity, verification, recognition, and eligibility;
-- civic technology and participation infrastructure;
-- transparency, public accountability, and public information systems;
-- explanation, contestability, review, and repair;
-- fairness, accessibility, understandability, and public accountability as practical design and governance questions;
-- public understanding of complex digital and administrative arrangements;
-- developing methods for examining whether public-facing or socially relevant systems support the claims made about them;
-- AI-assisted administration, especially where automated processing affects public input, recognition, accountability, explanation, or routes of challenge.
+- source-grounded analysis or institutional reconstruction;
+- public explanations of complex digital or administrative arrangements;
+- research or methods notes developed through concrete cases;
+- bounded exchanges with practitioners, researchers, or affected organisations intended to test, correct, or improve an analysis.
 
-Some of this work may later contribute to Lab materials, including exploratory artifacts, prototype notes, reference architectures, structured specifications, or technical sketches.
+These are forms the work may take, not a catalogue of standardised services.
 
-## How the work is organised
-
-Different kinds of work appear in different parts of the site.
-
-Broad areas of inquiry and applied research directions are introduced here.
-
-Developing research-practice approaches appear under [Methods](/methods/).
-
-Short essays, explainers, and reflections appear under [Notes](/notes/).
-
-Exploratory artifacts, kernels, prototype notes, reference architectures, specifications, and code-adjacent documentation appear under [Lab](/lab/).
-
-Formal papers, reports, and public PDFs may appear later if and when they are ready for public release.
+Public Layer Lab does not certify systems or replace legal, technical, security, accessibility, procurement, or other specialist assessment. Where those forms of expertise are necessary, the aim is to make the underlying institutional questions clearer and identify where specialist examination is required.
 
 ## Current phase
 
-The Work section is intentionally limited at this stage. It names the field of work and gives examples of the systems under examination. Additional pages will be added gradually as specific worklines become ready for public description.
+Public Layer Lab is in an early institutional phase. This page describes how the research is currently developing; it should not be read as a portfolio of completed projects or as a claim that every line of inquiry described here is already mature or externally validated.
+
+Specific analyses and other materials will be published when they are sufficiently developed, sourced, and ready for responsible public description.
+
+Corrections, relevant source material, and research or practitioner exchanges are welcome. If you know of a digital or administrative arrangement that may merit examination, you can also get in touch through the [Contact](/contact/) page.
