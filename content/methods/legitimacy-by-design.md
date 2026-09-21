@@ -1,11 +1,12 @@
 ---
 title: "Legitimacy by Design"
-description: "A developing research-practice approach for examining whether public-facing or socially relevant systems structurally support claims of fairness, accessibility, accountability, intelligibility, recognition, and contestability."
+lastmod: 2026-09-19
+description: "A developing analytical approach for examining whether public-facing or socially relevant systems structurally support claims of fairness, accessibility, accountability, intelligibility, recognition, and contestability."
 draft: false
 status: "draft"
 ---
 
-Legitimacy by Design is a developing research-practice approach for examining whether public-facing or socially relevant systems structurally support claims of fairness, accessibility, accountability, intelligibility, recognition, and contestability.
+Legitimacy by Design is a developing analytical approach for examining whether public-facing or socially relevant systems structurally support claims of fairness, accessibility, accountability, intelligibility, recognition, and contestability.
 
 It is associated with Public Layer Lab’s work on digital and administrative systems of public or social importance, public accountability, and the design of systems that shape access to public or civic functions.
 
@@ -91,7 +92,7 @@ It is designed to complement, not replace, legal, technical, policy, accessibili
 
 ## Current status
 
-Legitimacy by Design is currently a developing research-practice approach. Its concepts and diagnostic structure are being refined through research, public explanation work, and application to selected cases and system types.
+Legitimacy by Design remains a developing analytical approach. Its concepts and diagnostic structure may be tested and revised through research and concrete cases.
 
 Future versions may include public notes, examples, assessment templates, or longer publications. These will be published only when their claim level can be stated responsibly.
 
